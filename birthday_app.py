@@ -6,8 +6,8 @@ from datetime import datetime
 FILE_PATH = "C:\\Users\\Admin\\Desktop\\internship_projects\\Birthday_bot\\birthday.txt"
 
 # Scheduled time: 
-HOUR = 18
-MINUTE = 35
+HOUR = 00
+MINUTE = 00
 print("Birthday bot on DUTY...")
 
 # Load data and force phone as string
@@ -48,3 +48,4 @@ for _, row in data.iterrows():
     )
 
 print("All birthday messages have been scheduled.")
+
